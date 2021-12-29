@@ -1,22 +1,29 @@
-# Vue-Fire-Tail 😎
+# 浑水
 
-## **Demo Here:** [Vue-Fire-Tail](https://vueauthfire.web.app/)
+## **预览** [浑水](https://vueauthfire.web.app/)
 
-Try Logging with the following
+- 请尝试下面的账号
 
 ```
-Email Address: test@gmail.com
-Password: test@12345
+Email Address: test@qq.com
+Password: 123456
 ```
 
 ## Steps
 
-- [Why Vue Fire Tail](#why-vue-fire-tail)
-- [Technologies](#latest-and-greatest-technologies)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [Recommended IDE Setup](#recommended-ide-setup)
+- [浑水](#浑水)
+  - [**预览** 浑水](#预览-浑水)
+  - [Steps](#steps)
+    - [Why Vue Fire Tail](#why-vue-fire-tail)
+    - [最先进](#最先进)
+    - [Features](#features)
+    - [Quick Start](#quick-start)
+    - [Documentation](#documentation)
+      - [Pages](#pages)
+      - [Helpers](#helpers)
+      - [Theme](#theme)
+      - [Font Awesome](#font-awesome)
+    - [Recommended IDE Setup](#recommended-ide-setup)
 
 ### Why Vue Fire Tail
 
@@ -26,7 +33,7 @@ You have to add **Routes**, **Protect** your routes, create a **Login** & **Regi
 
 Here is **Vue-Fire-Tail** Boiler plate for you😊. Vue-Fire-Tail is powered by next-gen technologies like Vue 3 and Firebase 9 along with the power of Vite and Tailwind CSS v3.
 
-### Latest and greatest Technologies
+### 最先进
 
 1. [Vue 3](https://v3.vuejs.org/)
 1. [Firebase v9](https://firebase.google.com/docs/web/modular-upgrade)

@@ -2,7 +2,7 @@
   <nav class="t-transition-effect nav-style px-2 md:px-0">
     <div class="t-main-set flex justify-between items-center">
       <h1 class="font-bold text-primary cursor-pointer" @click="goToHome">
-        My App
+       浑水
       </h1>
       <div class="hidden md:block" v-if="user">
         <router-link :to="{ name: 'Home' }" class="nav-link t-transition-effect"
@@ -37,19 +37,13 @@
       </div>
       <div class="hidden md:block" v-else>
         <router-link :to="{ name: 'Home' }" class="nav-link t-transition-effect"
-          >Home
+          >首页
         </router-link>
         <router-link
           :to="{ name: 'Login' }"
           class="nav-link t-transition-effect"
         >
-          Login
-        </router-link>
-        <router-link
-          :to="{ name: 'SignUp' }"
-          class="nav-link t-transition-effect"
-        >
-          Sign Up
+          登录
         </router-link>
       </div>
       <div class="block md:hidden">

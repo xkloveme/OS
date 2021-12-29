@@ -119,7 +119,7 @@ export default {
       if (
         !isValidEmail(state.email) ||
         state.displayName.length === 0 ||
-        state.password.length < 6 ||
+        state.password.length < 5 ||
         state.password !== state.cpassword
       )
         return false;

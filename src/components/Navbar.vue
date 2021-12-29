@@ -2,6 +2,7 @@
   <nav class="t-transition-effect nav-style px-2 md:px-0">
     <div class="t-main-set flex justify-between items-center">
       <h1 class="font-bold text-primary cursor-pointer" @click="goToHome">
+         <font-awesome-icon :icon="['fas', 'fish']" class="mr-1" />
        浑水
       </h1>
       <div class="hidden md:block" v-if="user">

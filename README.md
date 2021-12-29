@@ -1,6 +1,9 @@
 # 浑水
 
-## **预览** [浑水](https://vueauthfire.web.app/)
+## **预览** [国际](https://www.jixiaokang.com/os/#/)
+## **预览** [国内](https://os-ten.vercel.app/#/)
+## **预览** [国内备用加速](https://static-fb13c39a-ce5d-4fbc-9fe5-96360b09fdec.bspapp.com/#/)
+
 
 - 请尝试下面的账号
 
@@ -12,26 +15,29 @@ Password: 123456
 ## Steps
 
 - [浑水](#浑水)
-  - [**预览** 浑水](#预览-浑水)
+  - [**预览** 国际](#预览-国际)
+  - [**预览** 国内](#预览-国内)
+  - [**预览** 国内备用加速](#预览-国内备用加速)
   - [Steps](#steps)
-    - [Why Vue Fire Tail](#why-vue-fire-tail)
+    - [页面](#页面)
+      - [winXP](#winxp)
+      - [win7](#win7)
+      - [win8](#win8)
+      - [win11](#win11)
+      - [deepin](#deepin)
     - [最先进](#最先进)
-    - [Features](#features)
-    - [Quick Start](#quick-start)
-    - [Documentation](#documentation)
-      - [Pages](#pages)
+    - [快速开始](#快速开始)
       - [Helpers](#helpers)
       - [Theme](#theme)
       - [Font Awesome](#font-awesome)
-    - [Recommended IDE Setup](#recommended-ide-setup)
 
-### Why Vue Fire Tail
+### 页面
 
-At times it get very irritating when you want to start your new project which is a firebase project in which you have to set _Authentication Flow_ **EVERYTIME**.
-You have to add **Routes**, **Protect** your routes, create a **Login** & **Register** component, **Style** those component and have a nice **Loading animation**,
-**Validate** your login/register form. and much much more.
-
-Here is **Vue-Fire-Tail** Boiler plate for you😊. Vue-Fire-Tail is powered by next-gen technologies like Vue 3 and Firebase 9 along with the power of Vite and Tailwind CSS v3.
+#### winXP
+#### win7
+#### win8
+#### win11
+#### deepin
 
 ### 最先进
 
@@ -42,18 +48,11 @@ Here is **Vue-Fire-Tail** Boiler plate for you😊. Vue-Fire-Tail is powered by 
 1. [Headless UI](https://headlessui.dev/)
 1. [Vite](https://vitejs.dev/guide/)
 
-### Features
 
-1. Email Password Authetication & Google Authetication
-1. Forgot Password Feature
-1. Login & SignUp forms validations
-1. Fallback Page (404 Page), Loaders and page transitions for smooth user experience
-1. Font Awesome Icons pre configured.
-
-### Quick Start
+### 快速开始
 
 ```bash
-git clone https://github.com/sushil-kamble/vue-tail-fire.git my-project
+git clone https://github.com/xkloveme/os
 yarn
 ```
 
@@ -90,17 +89,6 @@ VITE_APP_APP_ID=YOUR_FIREBASE_CONSOLE_DETAILS
 yarn dev # OR npm run dev
 ```
 
-### Documentation
-
-#### Pages
-
-- Home Page
-- Login Page
-- Sign Up Page
-- Forgot Password Page
-- 404 Page
-- Profile Page - `Auth Required`
-- Database Page - `Auth Required`
 
 #### Helpers
 
@@ -128,8 +116,3 @@ yarn dev # OR npm run dev
 - Add it to `library`. (See in `main.js`)
 - Use it like `<font-awesome-icon :icon="['fas', 'address-book']" />`
 - For more info visit [here](https://github.com/FortAwesome/vue-fontawesome)
-
-### Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)

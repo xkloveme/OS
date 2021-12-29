@@ -94,7 +94,7 @@ export default {
       ) {
         try {
           await signInWithEmailAndPassword(auth, email.value, password.value);
-          await router.replace({ name: "Profile" });
+          await router.replace({ name: "Home" });
         } catch (e) {
           error.value = e.message;
         }
@@ -110,7 +110,7 @@ export default {
       try {
         const result = await signInWithPopup(auth, provider);
         GoogleAuthProvider.credentialFromResult(result);
-        router.replace({ name: "Profile" });
+        router.replace({ name: "Home" });
       } catch (e) {
         error.value = e.message;
       }

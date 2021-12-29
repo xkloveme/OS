@@ -145,7 +145,7 @@ export default {
           await updateProfile(user, {
             displayName: state.displayName,
           });
-          await router.replace({ name: "Profile" });
+          await router.replace({ name: "Home" });
         } catch (e) {
           error.value = e.message;
         }

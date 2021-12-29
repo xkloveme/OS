@@ -47,7 +47,7 @@
           class="px-4 py-2 text-sm cursor-pointer text-error"
           @click="signOutUser"
         >
-          Logout
+          登出
         </p>
       </div>
     </transition>
@@ -63,14 +63,12 @@ export default defineComponent({
   setup() {
     const { isAuthenticated } = useAuthState();
     const menuAuth = [
-      { name: "Home", link: { name: "Home" } },
-      { name: "Profile", link: { name: "Profile" } },
-      { name: "Database", link: { name: "Database" } },
+      { name: "首页", link: { name: "Home" } },
+      { name: "摸鱼", link: { name: "windows" } },
     ];
     const menuNoAuth = [
-      { name: "Home", link: { name: "Home" } },
-      { name: "Login", link: { name: "Login" } },
-      { name: "Signup", link: { name: "SignUp" } },
+      { name: "首页", link: { name: "Home" } },
+      { name: "摸鱼", link: { name: "windows" } },
     ];
 
     const show = ref(false);

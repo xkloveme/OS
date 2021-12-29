@@ -7,9 +7,10 @@
     <Loading class="h-16 w-16" />
   </div>
   <div v-else>
-    <Navbar />
-    <div class="t-main-set">
+     
+    <div >
       <router-view v-slot="{ Component, route }">
+        <Navbar v-if="route?.meta?.requiresTitle"/>
         <transition name="slide" mode="out-in">
           <component :is="Component" :key="route.path" />
         </transition>

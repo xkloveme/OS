@@ -13,7 +13,7 @@ import {
   faSignOutAlt,
   faInfoCircle
 } from "@fortawesome/free-solid-svg-icons";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle,faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import App from "./App.vue";
 import router from "./router";
@@ -21,6 +21,7 @@ import "@/assets/index.css";
 
 library.add([
   faGoogle,
+  faGithub,
   faBars,
   faEnvelope,
   faKey,

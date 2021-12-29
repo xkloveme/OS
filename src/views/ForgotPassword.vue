@@ -1,21 +1,21 @@
 <template>
   <section class="t-auth-section">
     <form @submit.prevent="handleSubmit" class="t-auth-form">
-      <h1 class="mb-6">Forgot Password</h1>
+      <h1 class="mb-6">忘记密码</h1>
       <hr />
       <div class="mb-4">
-        <label class="block text-sm font-bold mb-2" for="email"> Email </label>
+        <label class="block text-sm font-bold mb-2" for="email"> 邮箱 </label>
         <input class="t-input" type="text" id="email" placeholder="Email" />
       </div>
       <div class="flex justify-between items-center">
         <button type="submit" class="t-btn inline-flex items-center bg-primary">
           <Loading class="h-5 w-5" v-show="loading" />
-          Submit
+          提交
         </button>
         <h5>
-          Remembered Password?
+          记得密码?
           <router-link :to="{ name: 'Login' }" class="text-primary"
-            >Login
+            >登录
           </router-link>
         </h5>
       </div>
@@ -67,4 +67,3 @@ export default {
   },
 };
 </script>
-

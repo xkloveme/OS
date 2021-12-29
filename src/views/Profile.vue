@@ -13,7 +13,7 @@
     <Dialog
       button-name="About Me"
       title="About Me"
-      description="Hello there, this is Sushil Kamble. I have created a
+      description="Hello there,I have created a
       authetication demo using Vue 3, Firebase 9 and Tailwind. Features included are sign up 
       form validation, navigation guard, firestore read and write demo, page transition,
       and this reuseable modal."
@@ -52,4 +52,3 @@ export default defineComponent({
   },
 });
 </script>
-

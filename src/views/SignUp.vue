@@ -1,12 +1,12 @@
 <template>
   <section class="t-auth-section">
     <form @submit.prevent="handleSubmit" class="t-auth-form">
-      <h1 class="mb-6">Sign Up</h1>
+      <h1 class="mb-6">注册</h1>
       <hr />
       <div class="mb-4">
         <label class="block text-sm font-bold mb-2" for="email">
           <font-awesome-icon :icon="['fas', 'envelope']" class="mr-1" />
-          Email
+          邮箱
         </label>
         <input
           :class="`t-input ${!validEmail && 'border border-error'}`"
@@ -17,13 +17,13 @@
           required
         />
         <p class="mt-0.5 text-error text-xs italic" v-show="!validEmail">
-          Enter Valid Email
+          确认邮箱
         </p>
       </div>
       <div class="mb-4">
         <label class="block text-sm font-bold mb-2" for="name">
           <font-awesome-icon :icon="['fas', 'user-circle']" class="mr-1" />
-          Display Name
+          用户名
         </label>
         <input
           class="t-input"
@@ -37,7 +37,7 @@
       <div class="mb-4">
         <label class="block text-sm font-bold mb-2" for="password">
           <font-awesome-icon :icon="['fas', 'key']" class="mr-1" />
-          Password
+          密码
         </label>
         <input
           class="t-input"
@@ -51,7 +51,7 @@
       <div class="mb-4">
         <label class="block text-sm font-bold mb-2" for="cpassword">
           <font-awesome-icon :icon="['fas', 'key']" class="mr-1" />
-          Confirm Password
+          确认密码
         </label>
         <input
           :class="`t-input ${!equalPassword && 'border border-error'}`"
@@ -68,12 +68,12 @@
         <button type="submit" class="t-btn inline-flex items-center bg-primary">
           <Loading class="h-5 w-5" v-if="loading" />
           <font-awesome-icon :icon="['fas', 'user-plus']" class="mr-2" v-else />
-          Sign Up
+          注册
         </button>
         <h5 class="mr-1">
-          Already Signed Up?
+          已经注册?
           <router-link :to="{ name: 'Login' }" class="text-primary">
-            Login
+            登录
           </router-link>
         </h5>
       </div>

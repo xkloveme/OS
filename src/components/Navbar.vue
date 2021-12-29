@@ -6,19 +6,19 @@
       </h1>
       <div class="hidden md:block" v-if="user">
         <router-link :to="{ name: 'Home' }" class="nav-link t-transition-effect"
-          >Home
+          >首页
         </router-link>
-        <router-link
+        <!-- <router-link
           :to="{ name: 'Profile' }"
           class="nav-link t-transition-effect"
         >
           Profile
-        </router-link>
-        <router-link
+        </router-link> -->
+        <!-- <router-link
           :to="{ name: 'Database' }"
           class="nav-link t-transition-effect"
           >Database
-        </router-link>
+        </router-link> -->
         <a
           class="
             t-transition-effect
@@ -32,7 +32,7 @@
             hover:bg-opacity-75
           "
           @click="signOutUser"
-          >Log Out
+          >登出
         </a>
       </div>
       <div class="hidden md:block" v-else>

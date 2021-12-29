@@ -4,12 +4,16 @@
     <hr />
     <h2 class="mb-2">浑水摸鱼</h2>
     <ul class="list-disc list-inside">
-      <li>最近摸鱼应用在打工人身边传开</li>
+      <li>最近摸鱼应用搞的热火朝天</li>
       <li>打工人,打工魂</li>
       <li>打工都是人上人</li>
       <li>适当的摸鱼,是为了更好的工作</li>
-      <li>Profile Page - <code>Auth required</code></li>
-      <li>Database Page - <code>Auth required</code></li>
+      <li>浑水摸鱼,浑水OS,有浑水就可以摸鱼</li>
+    </ul>
+    <h2 class="my-2">支持应用</h2>
+    <ul class="list-disc list-inside">
+      <li>win10 <code>(https://v3.vuejs.org/)</code></li>
+      <li>win7<code>(https://firebase.google.com/docs/web/modular-upgrade)</code></li>
     </ul>
     <h2 class="my-2">感谢</h2>
     <ul class="list-disc list-inside">

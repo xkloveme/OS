@@ -1,1 +1,0 @@
-import{_ as r}from"./index.1abc36b5.js";import{f as e,k as a}from"./vendor.b196b113.js";var n=r({setup:()=>({})},[["render",function(r,n,o,s,t,d){return a(),e("div",null,"xp")}]]);export{n as default};

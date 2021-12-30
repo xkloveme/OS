@@ -1,7 +1,7 @@
 <!--
  * @Author: xkloveme
  * @Date: 2021-12-29 13:49:13
- * @LastEditTime: 2021-12-30 09:20:36
+ * @LastEditTime: 2021-12-30 21:37:25
  * @LastEditors: xkloveme
  * @Description: windows loading
  * @FilePath: /OS/src/views/windows.vue
@@ -31,14 +31,14 @@
             'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
           ]">
           <div v-for="(post,imgIndex) in posts" :key="imgIndex" class="relative ">
-            <router-link :to="{name:post.pathName}" class="group cursor-pointer">
+            <div @click="handleClick(post.pathName)" class="group cursor-pointer">
               <div class="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img :src="post.img" :alt="post.title" class="w-full h-full object-center object-cover">
               </div>
               <p class="mt-1 text-lg text-center font-medium text-gray-900">
                 预览-{{post.title}}(点击图片即可预览)
               </p>
-            </router-link>
+            </div>
           </div>
         </TabPanel>
       </TabPanels>
@@ -49,7 +49,7 @@
 <script>
 import { ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-
+import { useRouter } from "vue-router";
 export default {
   components: {
     TabGroup,
@@ -101,8 +101,22 @@ export default {
         }
       ],
     })
-
-    return { categories }
+    const router = useRouter();
+    let handleClick = (name) => {
+      console.log('🐛 ~ file: windows.vue ~ line 117 ~ handleClick ~ name', name)
+      let element = document.documentElement; // 整个网页
+      if (element.requestFullscreen) {
+        element.requestFullscreen();
+      } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullscreen();
+      } else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+      }
+      router.replace({ name: name });
+    }
+    return { categories, handleClick }
   },
 }
 </script>

@@ -23,7 +23,7 @@
         <li><code>[Windows 8]</code></li>
         <li><code>[Windows 7]</code></li>
         <li><code>[Windows XP]</code></li>
-        <li><code>[Deepin]</code></li>
+        <li><code>[Mac OS]</code></li>
       </ul>
       <h2 class="my-2">感谢</h2>
       <ul class="list-disc list-inside break-words">

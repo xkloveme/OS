@@ -15,33 +15,39 @@ const routes = [
     meta: { requiresTitle: true }
   },
   {
-    path: "/xp",
-    name: "xp",
-    component: () => import("@/views/xp.vue"),
+    path: "/winxp",
+    name: "winxp",
+    component: () => import("@/views/update/winxp.vue"),
     meta: { requiresTitle: false }
   },
   {
     path: "/win7",
     name: "win7",
-    component: () => import("@/views/win7.vue"),
+    component: () => import("@/views/update/win7.vue"),
+    meta: { requiresTitle: false }
+  },
+  {
+    path: "/vista",
+    name: "vista",
+    component: () => import("@/views/update/vista.vue"),
     meta: { requiresTitle: false }
   },
   {
     path: "/win8",
     name: "win8",
-    component: () => import("@/views/win8.vue"),
+    component: () => import("@/views/update/win8.vue"),
     meta: { requiresTitle: false }
   },
   {
     path: "/win11",
     name: "win11",
-    component: () => import("@/views/win11.vue"),
+    component: () => import("@/views/update/win11.vue"),
     meta: { requiresTitle: false }
   },
   {
-    path: "/deepin",
-    name: "deepin",
-    component: () => import("@/views/deepin.vue"),
+    path: "/macos",
+    name: "macos",
+    component: () => import("@/views/update/macos.vue"),
     meta: { requiresTitle: false }
   },
   {

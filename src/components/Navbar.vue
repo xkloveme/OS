@@ -8,7 +8,7 @@
       <div class="hidden md:block">
         <router-link :to="{ name: 'Home' }" class="nav-link t-transition-effect">首页
         </router-link>
-         <router-link :to="{ name: 'Black' }" class="nav-link t-transition-effect"> 全黑屏
+         <router-link :to="{ name: 'Black' }" class="nav-link t-transition-effect"> 全屏色
         </router-link>
         <router-link :to="{ name: 'windows' }" class="nav-link t-transition-effect"> 摸鱼
         </router-link>

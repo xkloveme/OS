@@ -1,7 +1,7 @@
 <!--
  * @Author: xkloveme
  * @Date: 2022-01-15 20:16:56
- * @LastEditTime: 2022-01-15 20:31:35
+ * @LastEditTime: 2022-01-15 20:34:58
  * @LastEditors: xkloveme
  * @Description: 全黑屏
  * @FilePath: /OS/src/views/black.vue
@@ -56,7 +56,7 @@
           @click="changeColor('#800080')"
           data-color="#800080"
         ></button>
-        <div class="color-description">屏幕变黑</div>
+        <div class="color-description">屏幕变紫</div>
       </div>
     </section>
     <div id="fullscreenelement"></div>
@@ -175,7 +175,7 @@ export default {
   },
 };
 </script>
-<style>
+<style lang="postcss" scoped>
 #colors-list {
   display: flex;
   flex-direction: column;

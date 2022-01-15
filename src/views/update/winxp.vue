@@ -1,7 +1,7 @@
 <!--
  * @Author: xkloveme
  * @Date: 2021-12-29 13:39:42
- * @LastEditTime: 2021-12-30 22:21:05
+ * @LastEditTime: 2022-01-15 20:33:51
  * @LastEditors: xkloveme
  * @Description: xp loading
  * @FilePath: /OS/src/views/update/winxp.vue
@@ -90,7 +90,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss" scoped>
 * {
 	cursor: url(cur/Handwriting.cur), default;
 }

@@ -1,1 +1,0 @@
-import{_ as e}from"./index.508097f2.js";import{f as r,k as n}from"./vendor.64e36d7b.js";var d=e({setup:()=>({})},[["render",function(e,d,o,s,t,a){return n(),r("div",null,"deepin")}]]);export{d as default};

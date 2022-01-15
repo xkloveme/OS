@@ -9,6 +9,12 @@ const routes = [
     meta: { requiresTitle: true }
   },
   {
+    path: "/black",
+    name: "Black",
+    component: () => import("@/views/black.vue"),
+    meta: { requiresTitle: true }
+  },
+  {
     path: "/windows",
     name: "windows",
     component: () => import("@/views/windows.vue"),
